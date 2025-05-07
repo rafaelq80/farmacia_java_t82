@@ -73,15 +73,15 @@ classDiagram
 class Produto {
   - id: int
   - nome: String
-  - categoria: int
+  - tipo: int
   - preco: float
   + getId() int
   + getNome() String
-  + getCategoria() int
+  + getTipo() int
   + getPreco() float
   + setId(id: int) void
   + setNome(nome: String) void
-  + setCategoria(categoria: int) void
+  + setTipo(tipo: int) void
   + setPreco(preco: float) void
   + visualizar() void
 }
